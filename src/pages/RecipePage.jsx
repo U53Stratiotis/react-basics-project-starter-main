@@ -26,11 +26,9 @@ export const RecipePage = (props) => {
   const { onClick } = props;
   
      const handleCardClick = () => {
-       onClick(); // Invoke the handleClick function when the card is clicked
+       onClick(); 
      };
 
-  // const isMobileView = useBreakpointValue({ base: true, md: false });
-     
   return (
     <>
         <Box
